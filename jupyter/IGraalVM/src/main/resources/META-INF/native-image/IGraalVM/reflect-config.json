@@ -1,0 +1,438 @@
+[
+    {
+      "name":"io.github.spencerpark.jupyter.kernel.KernelConnectionProperties",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    },
+    {
+      "name":"io.github.spencerpark.jupyter.kernel.LanguageInfo",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "name", "allowWrite" : true },
+          { "name" : "version", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.publish.PublishError",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "errName", "allowWrite" : true },
+          { "name" : "errMsg", "allowWrite" : true },
+          { "name" : "stacktrace", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.publish.PublishExecuteResult",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "count", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.publish.PublishStatus",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "state", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.publish.PublishStatus$State",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "BUSY", "allowWrite" : true },
+          { "name" : "IDLE", "allowWrite" : true },
+          { "name" : "STARTING", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.publish.PublishStream",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "type", "allowWrite" : true },
+          { "name" : "text", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.publish.PublishStream$StreamType",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "OUT", "allowWrite" : true },
+          { "name" : "ERR", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.CommInfoReply",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "comms", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.CommInfoReply$CommInfo",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "targetName", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.CompleteReply",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "status", "allowWrite" : true },
+          { "name" : "matches", "allowWrite" : true },
+          { "name" : "cursorStart", "allowWrite" : true },
+          { "name" : "cursorEnd", "allowWrite" : true },
+          { "name" : "metadata", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.ErrorReply",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "errName", "allowWrite" : true },
+          { "name" : "errMsg", "allowWrite" : true },
+          { "name" : "stacktrace", "allowWrite" : true },
+          { "name" : "count", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.ExecuteReply",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "status", "allowWrite" : true },
+          { "name" : "executionCount", "allowWrite" : true },
+          { "name" : "evaluatedUserExpr", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.ExecuteReply$Status",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.HistoryReply",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.InputReply",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.IsCompleteReply",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.IsCompleteReply$Status",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "VALID_CODE", "allowWrite" : true },
+          { "name" : "NOT_FINISHED", "allowWrite" : true },
+          { "name" : "INVALID_CODE", "allowWrite" : true },
+          { "name" : "UNKNOWN", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.KernelInfoReply",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "protocolVersion", "allowWrite" : true },
+          { "name" : "implementationName", "allowWrite" : true },
+          { "name" : "implementationVersion", "allowWrite" : true },
+          { "name" : "langInfo", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.CommInfoRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "targetName", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.reply.ShutdownReply",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.CompleteRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "code", "allowWrite" : true },
+          { "name" : "cursorPos", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.ExecuteRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "code", "allowWrite" : true },
+          { "name" : "silent", "allowWrite" : true },
+          { "name" : "storeHistory", "allowWrite" : true },
+          { "name" : "userExpr", "allowWrite" : true },
+          { "name" : "stdinEnabled", "allowWrite" : true },
+          { "name" : "stopOnError", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.HistoryRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "accessType", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.HistoryRequest$AccessType",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "RANGE", "allowWrite" : true },
+          { "name" : "TAIL", "allowWrite" : true },
+          { "name" : "SEARCH", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.InputRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.InspectRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "code", "allowWrite" : true },
+          { "name" : "cursorPos", "allowWrite" : true },
+          { "name" : "detailLevel", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.InterruptRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.IsCompleteRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true,
+        "fields" : [
+          { "name" : "code", "allowWrite" : true }
+        ]
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.KernelInfoRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    },
+    {
+        "name":"io.github.spencerpark.jupyter.messages.request.ShutdownRequest",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : true,
+        "allDeclaredMethods" : true,
+        "allPublicMethods" : true,
+        "allDeclaredClasses" : true,
+        "allPublicClasses" : true,
+        "allDeclaredFields" : true,
+        "allPublicFields" : true
+    }
+]
